@@ -33,18 +33,27 @@
                 <div class="d-flex justify-content-between">
                     <div class="bg-primary text-white text-center py-2" style="width: 100px;">Trending</div>
                     <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3" style="width: calc(100% - 100px); padding-left: 90px;">
-                        <div class="text-truncate"><a class="text-secondary" href="">This is Your Red Carpet Moment : Homecoming        </a></div>
-                        <div class="text-truncate"><a class="text-secondary" href="">Annual Fun & Fright Fest </a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="NHSChaseElTrip.html">NHS Visits Chase Elementary</a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="CollegeAppOpp.html">College Application Opportunities</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="2023SalemTrip.html">Class of 2023 Takes Trip To Salem, Mass.</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="UConnECE.html">New UConn ECE Course at Kaynor</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="Volleyball23Season.html">Girls Volleyball Ends Fall Season 15-5</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="2026MasonryShop.html">Masonry Shop Availible to Class of 2026</a></div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 text-right d-none d-md-block">
-                Thursday, September 30, 2022
+                <p> <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"/"+ (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
             </div>
         </div>
         <div class="row align-items-center py-2 px-lg-5">
             <div class="col-lg-4">
-                <a href="" class="navbar-brand d-none d-lg-block">
+                <a href="index.html" class="navbar-brand d-none d-lg-block">
                     <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">Panther</span>Press</h1>
                 </a>
             </div>
@@ -54,6 +63,7 @@
         </div>
     </div>
     <!-- Topbar End -->
+
 
 
     <!-- Navbar Start -->

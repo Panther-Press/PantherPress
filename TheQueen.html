@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <title>Kaynor Press - Death Of The Queen</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+<meta content="Kaynor Panther Press Website" name="Kaynor Tech">
+    <meta content="Welcome to Kaynor's Panther Press website! Get all the latested news about Kaynor and around you!" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="icon/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fontßs.gstatic.com">
@@ -33,14 +33,22 @@
                 <div class="d-flex justify-content-between">
                     <div class="bg-primary text-white text-center py-2" style="width: 100px;">Trending</div>
                     <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3" style="width: calc(100% - 100px); padding-left: 90px;">
-                        <div class="text-truncate"><a class="text-secondary" href="">This is Your Red Carpet Moment : Homecoming        </a></div>
-                        <div class="text-truncate"><a class="text-secondary" href="">The Death Of The Queen       </a></div>
-                        <div class="text-truncate"><a class="text-secondary" href="">Annual Fun & Fright Fest </a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="NHSChaseElTrip.html">NHS Visits Chase Elementary</a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="CollegeAppOpp.html">College Application Opportunities</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="2023SalemTrip.html">Class of 2023 Takes Trip To Salem, Mass.</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="UConnECE.html">New UConn ECE Course at Kaynor</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="Volleyball23Season.html">Girls Volleyball Ends Fall Season 15-5</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="2026MasonryShop.html">Masonry Shop Availible to Class of 2026</a></div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 text-right d-none d-md-block">
-                Wednesday, October 5th, 2022
+                <p> <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"/"+ (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
             </div>
         </div>
         <div class="row align-items-center py-2 px-lg-5">
@@ -55,6 +63,7 @@
         </div>
     </div>
     <!-- Topbar End -->
+
 
 
     <!-- Navbar Start -->

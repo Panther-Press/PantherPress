@@ -4,12 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>Panthers Press - New Heath Teach Teachers</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Kaynor Panther Press Website" name="Kaynor Tech">
+    <meta content="Welcome to Kaynor's Panther Press website! Get all the latested news about Kaynor and around you!" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="icon/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -33,18 +32,27 @@
                 <div class="d-flex justify-content-between">
                     <div class="bg-primary text-white text-center py-2" style="width: 100px;">Trending</div>
                     <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3" style="width: calc(100% - 100px); padding-left: 90px;">
-                        <div class="text-truncate"><a class="text-secondary" href="">This is Your Red Carpet Moment : Homecoming        </a></div>
-                        <div class="text-truncate"><a class="text-secondary" href="">Annual Fun & Fright Fest </a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="NHSChaseElTrip.html">NHS Visits Chase Elementary</a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="CollegeAppOpp.html">College Application Opportunities</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="2023SalemTrip.html">Class of 2023 Takes Trip To Salem, Mass.</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="UConnECE.html">New UConn ECE Course at Kaynor</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="Volleyball23Season.html">Girls Volleyball Ends Fall Season 15-5</a></div>
+						<div class="text-truncate"><a class="text-secondary" href="2026MasonryShop.html">Masonry Shop Availible to Class of 2026</a></div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 text-right d-none d-md-block">
-                Thursday, September 30, 2022
+                <p> <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"/"+ (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
             </div>
         </div>
         <div class="row align-items-center py-2 px-lg-5">
             <div class="col-lg-4">
-                <a href="" class="navbar-brand d-none d-lg-block">
+                <a href="index.html" class="navbar-brand d-none d-lg-block">
                     <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">Panther</span>Press</h1>
                 </a>
             </div>
@@ -54,6 +62,7 @@
         </div>
     </div>
     <!-- Topbar End -->
+
 
 
     <!-- Navbar Start -->
@@ -89,9 +98,9 @@
     <div class="container-fluid">
         <div class="container">
             <nav class="breadcrumb bg-transparent m-0 p-0">
-                <a class="breadcrumb-item" href="#">Home</a>
+                <a class="breadcrumb-item" href="index.html">Home</a>
                 <a class="breadcrumb-item" href="#">Category</a>
-                <a class="breadcrumb-item" href="#">Technology</a>
+                <a class="breadcrumb-item" href="#">News</a>
                 <span class="breadcrumb-item active">Health Tech Welcomes New Teachers</span>
             </nav>
         </div>
@@ -108,13 +117,16 @@
                     <div class="position-relative mb-3">
                         <img class="img-fluid w-100" src="img/HTDoll.jpg" style="object-fit: cover;">
                         <div class="overlay position-relative bg-light">
+						<h6>Image Credit: Taken By Hannah Kimball</h6>
                             <div class="mb-3">
+				
                                 <a href="">News</a>
                                 <span class="px-1">/</span>
                                 <span>September 30, 2022</span>
                             </div>
                             <div>
                                 <h3 class="mb-3">Heath Tech Welcomes New Teachers</h3>
+								<h6 class="mb-3">By: Hannah Kimball</h6>
                                 <p>Mrs. Beccia and Mrs. Aleman have been welcomed into health tech this year after Mrs. Sims, Mrs. Wrenn, and Mrs. Trzaski left.</p>
                                 <p>Mrs. Beccia is new to teaching in a school setting but has taught "nursing students/grads, and EMT students in the hospital environment." </p>
                                 <p>"We plan on stepping it up. We want the seniors to get out for work based learning as much as possible. We also want the senior curriculum to be more active" Beccia said.</p>
